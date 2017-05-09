@@ -21,3 +21,5 @@ node.js nginx
 redis mongdb pg
 
 grpc 
+
+lenovoID sunsw3  password  Zhangdan0324
