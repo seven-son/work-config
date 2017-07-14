@@ -1,6 +1,7 @@
-username: ligw7
-password: Lenovo$1qaz2wsx3edc4
-url: https://10.96.160.78/cgi-bh/login.cgi
+### 堡垒机
+     username: ligw7
+    password: Lenovo$1qaz2wsx3edc4
+    url: https://10.96.160.78/cgi-bh/login.cgi
 
 /data/node_app/ldc.com.cn/github/ldc/backend/nodeapp/ldc.com.cn/
 qfDQ-6370
@@ -24,3 +25,8 @@ grpc
 
 lenovoID sunsw3  password  Zhangdan0324
 Zhangdan10324
+
+### 导出
+```sql
+ ./mongoexport -h 127.0.0.1:27021  -d teu -c teu --type=csv -f _id,sn,mt,day,os,channel,versionTo -q '{"day":"2017-07-12"}' -o 20170712.1704.csv
+```
