@@ -30,3 +30,6 @@ Zhangdan10324
 ```sql
  ./mongoexport -h 127.0.0.1:27021  -d teu -c teu --type=csv -f _id,sn,mt,day,os,channel,versionTo -q '{"day":"2017-07-12"}' -o 20170712.1704.csv
 ```
+###  wps会员
+* username:13994958894
+* password:sundan324816
